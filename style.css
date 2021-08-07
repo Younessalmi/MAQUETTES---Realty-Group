@@ -1,0 +1,66 @@
+
+header  {
+    margin: 0px 100px 0px;
+  }
+
+nav *{
+    display: inline-block;
+}
+
+ul{
+    text-align: center;
+    font-family:Arial;
+    font-size: 20px;  
+    color:#33b0ec;
+    margin: 0px 450px;
+    
+}
+
+li{
+    display: inline-block;
+    margin-left:20px;
+}
+
+hr {
+    background-color:#33b0ec;
+    padding: 2px;
+}
+
+h3 {
+    font-family:Arial;
+    font-size:20px;
+    color:#33b0ec;
+}
+p {
+    font-family:Arial;
+    font-size:12px;
+    color:#818b90;
+    line-height: 2em;
+}
+
+
+                                                                      /* Hover ____ fonction */
+
+
+                                                                      
+                                                                      
+                                                                      .dropdown-content {
+                                                                        display: none;
+                                                                        position: absolute;
+                                                                        background-color: #33b0ec;
+                                                                        min-width: 1000px;
+                                                                        left: 0;
+                                                                        right: 0;
+                                                                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                                                        z-index: 1;
+                                                                      }
+                                                                      .dropdown-content div *{
+                                                                          display: block;
+                                                                          padding: 15px;
+                                                                          font-size: 15px !important;
+                                                                      }
+                                                                      
+                                                                      
+                                                                      .dropdown:hover .dropdown-content {
+                                                                        display: block;
+                                                                      }
